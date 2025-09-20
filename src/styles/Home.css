@@ -1,0 +1,1014 @@
+.home_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 100px;
+    
+}
+
+.home_container{
+    width: 100%;
+    height: 100vh;
+    background-color: #0D1B2A;
+}
+
+
+
+
+
+#presentation{
+    background-image: url('../assets/FOND2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    
+}
+
+.home1_title1{
+    color: whitesmoke;
+    font-size: 4rem;
+    text-shadow: 0px 3px blue;
+    transition: all 0.8s ease-in-out;
+}
+
+.home1_title1:hover{
+    color: blue;
+    text-shadow: 0px 3px whitesmoke;
+    transform: scale(1.2);
+    cursor: grab;
+}
+
+.home1_title2{
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0px 2px blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.home2_cont{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home2_box{
+    border: 1px inset whitesmoke ;
+    width: 25%;
+    height: 100%;
+    transition: all 0.8s ease-in-out;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.home2_box:hover{
+    transform: translateY(-15px);
+}
+
+.home2_title{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style:oblique ;
+}
+
+.home2_ico{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.home2_text{
+    color: white;
+    font-weight: 300;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#devices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home3_cont{
+    width: 90%;
+    height: 80%;
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+}
+
+.home3_box {
+            border: 3px outset black;
+            width: 300px;
+            height: 450px;
+            transition: all 0.8s ease-in-out;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            
+            justify-content: space-between;
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        .home3_box:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+            border-color: #fdbb2d;
+        }
+        
+        .home3_img {
+            width: 180px;
+            height: 180px;
+            border: 2px outset whitesmoke;
+            border-radius: 55%;
+            object-fit: cover;
+            margin-top: 20px;
+            transition: all 0.5s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .home3_box:hover .home3_img {
+            transform: scale(1.05);
+            border-color: #fdbb2d;
+        }
+        
+        .home3_text1 {
+            color: whitesmoke;
+            margin-top: -30px;
+            font-weight: 100;
+            text-align: start;
+            
+        }
+
+        .home3_text_title {
+            color: yellow;
+            margin-top: -30px;
+            font-weight: 200;
+            font-size: 1rem;
+            
+        }
+
+       
+        
+        .home3_title {
+            margin-bottom: 15px;
+            color: #fdbb2d;
+             font-size: 2rem;
+              font-weight: 500;
+              font-style:oblique ;
+        }
+       
+        
+        .home3_box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                transparent, 
+                rgba(255, 255, 255, 0.1), 
+                transparent
+            );
+            transform: rotate(45deg);
+            transition: all 0.8s ease;
+            z-index: -1;
+        }
+        
+        .home3_box:hover::before {
+            animation: shine 1.5s forwards;
+        }
+        
+        @keyframes shine {
+            0% {
+                top: -50%;
+                left: -50%;
+            }
+            100% {
+                top: 150%;
+                left: 150%;
+            }
+        }
+
+
+
+
+
+
+
+
+#prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home4_cont{
+    border: 2px inset black;
+    width: 40%;
+    height: 50%;
+    border-radius: 55px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+    transition: all 0.7s ease-in-out;
+}
+
+
+.home4_cont:hover {
+    transform: translateY(-15px);   
+}
+/* Premier enfant */
+.home4_cont:nth-child(1):hover {
+    background-color: #fdbb2d;
+   
+}
+
+/* Deuxième enfant */
+.home4_cont:nth-child(2):hover {
+    background-color: red;
+   
+}
+
+
+
+.home4_text_title{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.home4_text{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+#h4_1{
+    position: relative;
+    top: -100px;
+    border: 2px inset blueviolet;
+}
+
+
+#h4_2{
+    position: relative;
+    top: 100px;
+    border: 2px inset blue;
+}
+
+
+
+
+
+
+
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.home5_cont{
+
+width: 20%;
+height: 20%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.home5_ico{
+    font-size: 3.5rem;
+    color: wheat;
+}
+
+
+.home5_text{
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.home5_title{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+@media (max-width:767px) {
+    
+.home1_title1:hover{
+    transform: scale(1);
+}
+
+
+.home1_title1{
+    font-size: 3rem;
+}
+
+
+.home2_cont{
+    width: 100%;
+}
+
+.home2_box{
+    border: 1px inset whitesmoke ;
+    width: 100%;
+}
+
+.home2_box:hover{
+    transform: translateY(-10px);
+}
+
+
+.home2_title{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.home2_ico{
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+.home2_text{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#devices{
+    height: 300vh;
+}
+
+.home3_cont{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    align-items: center;
+}
+
+.home3_box{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#prices{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+}
+
+.home4_cont{
+    width:100%;
+    height: 50%;
+    border-radius: 10px ;
+}
+
+
+.home4_cont:hover {
+    transform: translateY(-10px);   
+}
+
+
+
+
+.home4_text_title{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.home4_text{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+
+
+
+#h4_1{
+    position: relative;
+    top: 0px;
+    border: 2px inset blueviolet;
+}
+
+
+#h4_2{
+    position: relative;
+    top: 0px;
+    border: 2px inset blue;
+}
+
+
+
+#contact{
+    flex-direction: column;
+}
+
+.home5_cont{
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.home5_ico{
+    font-size: 3.5rem;
+    color: wheat;
+}
+
+
+.home5_text{
+    font-size: 1.1rem;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.home5_title{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+
+}
+
+
+
+
+
+@media (min-width:768px) and  (max-width:1400px) {
+    
+.home1_title1:hover{
+    transform: scale(1);
+}
+
+
+.home1_title1{
+    font-size: 3rem;
+}
+
+
+.home2_cont{
+    width: 100%;
+}
+
+.home2_box{
+    border: 1px inset whitesmoke ;
+    width: 100%;
+}
+
+.home2_box:hover{
+    transform: translateY(-10px);
+}
+
+
+.home2_title{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.home2_ico{
+    color: whitesmoke;
+    font-size: 4rem;
+}
+
+.home2_text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#devices{
+    height: 300vh;
+}
+
+.home3_title{
+    font-size: 3rem;
+}
+
+.home3_text_title{
+    font-size: 1.8rem;
+}
+
+.home3_text1{
+     font-size: 1.5rem;
+}
+
+.home3_cont{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    align-items: center;
+}
+
+.home3_box{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#prices{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+}
+
+.home4_cont{
+    width:100%;
+    height: 50%;
+    border-radius: 10px ;
+}
+
+
+.home4_cont:hover {
+    transform: translateY(-10px);   
+}
+
+
+
+
+.home4_text_title{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.home4_text{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+
+
+
+#h4_1{
+    position: relative;
+    top: 0px;
+    border: 2px inset blueviolet;
+}
+
+
+#h4_2{
+    position: relative;
+    top: 0px;
+    border: 2px inset blue;
+}
+
+
+
+#contact{
+    flex-direction: column;
+}
+
+.home5_cont{
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.home5_ico{
+    font-size: 5rem;
+    color: wheat;
+}
+
+
+.home5_text{
+    font-size: 1.7rem;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.home5_title{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+}
+
+
+
+
+@media (min-width:820px) and  (max-width:1400px) {
+    
+.home1_title1:hover{
+    transform: scale(1);
+}
+
+
+.home1_title1{
+    font-size: 3rem;
+}
+
+
+.home2_cont{
+    width: 100%;
+}
+
+.home2_box{
+    border: 1px inset whitesmoke ;
+    width: 100%;
+}
+
+.home2_box:hover{
+    transform: translateY(-10px);
+}
+
+
+.home2_title{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.home2_ico{
+    color: whitesmoke;
+    font-size: 4rem;
+}
+
+.home2_text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#devices{
+    height: 300vh;
+}
+
+.home3_title{
+    font-size: 3rem;
+}
+
+.home3_text_title{
+    font-size: 1.8rem;
+}
+
+.home3_text1{
+     font-size: 1.5rem;
+}
+
+.home3_cont{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    align-items: center;
+}
+
+.home3_box{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#prices{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+}
+
+.home4_cont{
+    width:100%;
+    height: 50%;
+    border-radius: 10px ;
+}
+
+
+.home4_cont:hover {
+    transform: translateY(-10px);   
+}
+
+
+
+
+.home4_text_title{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.home4_text{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+
+
+
+#h4_1{
+    position: relative;
+    top: 0px;
+    border: 2px inset blueviolet;
+}
+
+
+#h4_2{
+    position: relative;
+    top: 0px;
+    border: 2px inset blue;
+}
+
+
+
+#contact{
+    flex-direction: column;
+}
+
+.home5_cont{
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.home5_ico{
+    font-size: 5rem;
+    color: wheat;
+}
+
+
+.home5_text{
+    font-size: 1.7rem;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.home5_title{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+}
+
+
+@media (min-width:1280px) and  (max-width:1500px) {
+     
+.home1_title1:hover{
+    transform: scale(1);
+}
+
+
+.home1_title1{
+    font-size: 4rem;
+}
+
+.home1_title2{
+    font-size: 2.5rem;
+}
+
+#skills{
+    position: relative;
+    gap: 50px;
+}
+
+.home2_cont{
+    width: 100%;
+    
+}
+
+.home2_box{
+    border: 1px inset whitesmoke ;
+    width: 30%;
+}
+
+.home2_box:hover{
+    transform: translateY(-10px);
+}
+
+
+.home2_title{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.home2_ico{
+    color: whitesmoke;
+    font-size: 4rem;
+}
+
+.home2_text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#devices{
+    height: 130vh;
+    flex-direction: column;
+}
+
+.home3_title{
+    font-size: 3rem;
+}
+
+.home3_text_title{
+    font-size: 2rem;
+}
+
+.home3_text1{
+     font-size: 1.8rem;
+}
+
+.home3_cont{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+    align-items: center;
+}
+
+.home3_box{
+    width: 20%;
+    height: 100%;
+}
+
+
+
+
+#prices{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    gap: 30px;
+}
+
+.home4_cont{
+    width:100%;
+    height: 80%;
+    border-radius: 10px ;
+}
+
+
+.home4_cont:hover {
+    transform: translateY(-10px);   
+}
+
+
+
+
+.home4_text_title{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.home4_text{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+
+
+
+#h4_1{
+    position: relative;
+    top: 0px;
+    border: 2px inset blueviolet;
+}
+
+
+#h4_2{
+    position: relative;
+    top: 0px;
+    border: 2px inset blue;
+}
+
+
+
+#contact{
+    flex-direction: column;
+}
+
+.home5_cont{
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.home5_ico{
+    font-size: 5rem;
+    color: wheat;
+}
+
+
+.home5_text{
+    font-size: 1.7rem;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.home5_title{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+}
+
