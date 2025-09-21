@@ -1,9 +1,6 @@
 import '../styles/Skills.css';
 import { Link } from 'react-router-dom';
-import { PiSecurityCameraDuotone } from "react-icons/pi";
-import { FaUserTie } from "react-icons/fa";
-import { TfiHeadphoneAlt } from "react-icons/tfi";
-import { GiPoliceCar } from "react-icons/gi";
+
 
 export default function Skills() {
     
@@ -86,3 +83,4 @@ export default function Skills() {
         </section>
     );
 }
+

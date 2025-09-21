@@ -100,11 +100,12 @@ export default function Home() {
 
 
           <div className='home_container' id='skills'>
-            <Link to='/'>
+            
                 <h2 className='home2_title'>
                 Découvrez Nos Services
+                <Link to='/Skills'  className='home_link'> Voir plus </Link>
                </h2>
-            </Link>
+           
 
             <div className='home2_cont'>
                 {boxInfo1.map((box1) => (
@@ -137,11 +138,12 @@ export default function Home() {
 
 
           <div className='home_container' id='devices'>
-                    <Link to='/'>
+                    
                     <h2 className='home3_title'>
                        Explorez Nos Outils
+                    <Link to='/Devices'  className='home_link'> Voir plus</Link>
                     </h2>
-                    </Link>
+                    
 
                 <div className='home3_cont'>
                     {devicesData1.map((device1) => (

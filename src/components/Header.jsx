@@ -2,7 +2,7 @@ import '../styles/Header.css';
 import React, { useState } from 'react';
 import { IoIosMenu } from "react-icons/io";
 import { Link } from 'react-router-dom';
-import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { RxCross1 } from "react-icons/rx";
 
 
 
@@ -25,6 +25,7 @@ export default function Header() {
 
             <Link to='/' className='nav_link'>Accueil</Link>
             <Link to='/Skills' className='nav_link'>Services</Link>
+            <Link to='/Devices' className='nav_link'>Matériels</Link>
             <Link to='/About' className='nav_link'>A propos</Link>
             <Link to='/Info' className='nav_link'>Infos</Link>
         </nav>
@@ -32,7 +33,7 @@ export default function Header() {
         <div className='head_box'>
           <button className={ `head_bt ${isopen ?  'open' : ''} `} onClick={toggleMenu}>
        {isopen ? 
-        <MdOutlineRestaurantMenu className='nav_bt' /> :
+       <RxCross1   className='nav_bt' /> :
          <IoIosMenu className='nav_bt' /> 
        }
       </button>
@@ -44,6 +45,7 @@ export default function Header() {
 
             <Link to='/' className='nav_link'>Accueil</Link>
             <Link to='/Skills' className='nav_link'>Services</Link>
+            <Link to='/Devices' className='nav_link'>Matériels</Link>
             <Link to='/About' className='nav_link'>A propos</Link>
             <Link to='/Info' className='nav_link'>Infos</Link>
         </nav>

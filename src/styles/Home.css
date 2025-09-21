@@ -119,10 +119,19 @@
     text-align: center;
 }
 
+.home3_title, .home2_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 
-
-
+.home_link{
+color: red;
+font-size: 1.5rem;
+font-weight: 500;
+font-style:oblique ;
+}
 
 
 
@@ -202,6 +211,7 @@
             
         }
 
+
        
         
         .home3_title {
@@ -211,6 +221,8 @@
               font-weight: 500;
               font-style:oblique ;
         }
+
+      
        
         
         .home3_box::before {

@@ -67,10 +67,13 @@
 
 
 @media (max-width:767px) {
- 
+ .nav_head {
+  height: auto;
+  }
 .nav_bt{
   font-size: 2rem;
   visibility: visible;
+ 
 }
 
 
@@ -89,6 +92,13 @@
 
 
 @media (min-width:768px) and  (max-width:1400px) {
+
+ .nav_head {
+  height: auto;
+  }
+
+
+
 
 .nav_bt{
   font-size: 2rem;
@@ -116,6 +126,17 @@
 
 @media (min-width:820px) and  (max-width:1400px) {
  
+
+
+
+ .nav_head {
+  height: auto;
+  }
+
+
+
+
+
 .nav_bt{
   font-size: 2rem;
   visibility: visible;
