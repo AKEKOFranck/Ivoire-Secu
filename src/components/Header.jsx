@@ -24,6 +24,7 @@ export default function Header() {
       <nav className='nav_box'>
 
             <Link to='/' className='nav_link'>Accueil</Link>
+            <Link to='/Skills' className='nav_link'>Services</Link>
             <Link to='/About' className='nav_link'>A propos</Link>
             <Link to='/Info' className='nav_link'>Infos</Link>
         </nav>
@@ -41,7 +42,8 @@ export default function Header() {
             {isopen && (
           <nav className={ `nav_head ${isopen ? 'nav-open' : 'nav-closed'} `} >
 
-             <Link to='/' className='nav_link'>Accueil</Link>
+            <Link to='/' className='nav_link'>Accueil</Link>
+            <Link to='/Skills' className='nav_link'>Services</Link>
             <Link to='/About' className='nav_link'>A propos</Link>
             <Link to='/Info' className='nav_link'>Infos</Link>
         </nav>
